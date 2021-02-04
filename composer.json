@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": ">=7.3",
+		"local/tmdb-api": "@dev"
+    },
+	"repositories": [
+		{
+			"type": "path",
+			"url": "./composer_package/tmdb-api",
+			"options": {
+				"symlink": false
+			}
+		}
+	]
+}
